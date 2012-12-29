@@ -4,7 +4,7 @@
 #define TRUE 0
 #define FALSE 1
 
-int count[256];
+int count[256]; //Assuming it is ASCII
 
 int checkForPerm(char *str1, char *str2)
 {

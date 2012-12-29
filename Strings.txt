@@ -1,3 +1,11 @@
 Strings ----> ASCII or Unicode
 
 ASCII strings --> 256 Characters
+
+Always append string with null charcter at the end (For a newly created string)
+
+Strings --> edge cases i) NULL string (strlen = 0)
+
+Always freeup the dynamically allocated memory (Also before free check if it is null !!)
+
+Reading string with blank space --> use fgets(str, sizeof(str), stdin);
