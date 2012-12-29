@@ -1,0 +1,3 @@
+Strings ----> ASCII or Unicode
+
+ASCII strings --> 256 Characters
