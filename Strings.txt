@@ -9,3 +9,5 @@ Strings --> edge cases i) NULL string (strlen = 0)
 Always freeup the dynamically allocated memory (Also before free check if it is null !!)
 
 Reading string with blank space --> use fgets(str, sizeof(str), stdin);
+
+sprintf() --> important function to know.
