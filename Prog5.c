@@ -10,7 +10,7 @@ char * compress(char *str)
     length = strlen(str);
     if(length == 0 || length == 1) return str;
 
-    char *newStr = (char *)malloc(length * 2);
+    char *newStr = (char *)malloc(length * 2 + 1);
 
     for (i = 0, j = 0; i < length; i++)
     {
